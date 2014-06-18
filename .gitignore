@@ -1,0 +1,17 @@
+!.keep
+*.DS_Store
+*.swo
+*.swp
+/.bundle
+/.env
+/.foreman
+/coverage/*
+/db/*.sqlite3
+/log/*
+/public/system
+/tags
+/tmp/*
+.rspec
+.ruby-version
+.sample.env
+.travis.yml
