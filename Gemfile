@@ -8,6 +8,7 @@ gem 'coffee-rails'
 gem 'delayed_job_active_record'
 gem 'email_validator'
 gem 'flutie'
+gem 'bitters'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'neat', '~> 1.5.1'
@@ -22,11 +23,13 @@ gem 'uglifier'
 gem 'unicorn'
 gem 'devise'
 gem 'haml-rails'
+gem 'refills'
 
 group :development do
   gem 'foreman'
   gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'better_errors'
 end
 
 group :development, :test do
@@ -35,6 +38,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'pry-rails'
   gem 'rspec-rails', '~> 2.14.0'
+  gem 'byebug'
 end
 
 group :test do

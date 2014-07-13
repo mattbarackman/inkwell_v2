@@ -1,0 +1,15 @@
+#flash_alert {
+  @extend %flash-alert;
+}
+
+#flash_error {
+  @extend %flash-error;
+}
+
+#flash_notice {
+  @extend %flash-notice;
+}
+
+#flash_success {
+  @extend %flash-success;
+}
