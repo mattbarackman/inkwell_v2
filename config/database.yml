@@ -4,6 +4,7 @@ development: &default
   encoding: utf8
   host: localhost
   min_messages: warning
+  port: 5432
   pool: 2
   timeout: 5000
 
