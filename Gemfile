@@ -20,6 +20,8 @@ gem 'simple_form'
 gem 'title'
 gem 'uglifier'
 gem 'unicorn'
+gem 'devise'
+gem 'haml-rails'
 
 group :development do
   gem 'foreman'
